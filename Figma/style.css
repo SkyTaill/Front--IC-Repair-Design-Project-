@@ -1,0 +1,265 @@
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.logo {
+    white-space: nowrap;
+    color: #E3B873;
+}
+
+.header {
+    background-color: #131313;
+
+
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+
+
+}
+
+
+.header-navigation_item_number {
+    color: #E3B873;
+    margin-right: 45px;
+    margin-left: 67px;
+
+}
+
+.header-navigation_item {
+    margin-right: 47px;
+
+}
+
+
+.color-hrf:hover {
+    color: #E3B873;
+}
+
+.header-navigation_item a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+    font-family: 'Nunito Sans';
+}
+
+.hero {
+    background-image: url("img/hero.jpg");
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+}
+
+.hero-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+
+}
+
+.hero-container {
+    position: relative;
+    z-index: 1;
+}
+
+
+.title {
+    margin: 0;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.content-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.button-calculate {
+
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    color: white;
+    font-family: 'Nunito Sans';
+    border: none;
+    padding: 19px 32px;
+    margin-right: 20px;
+    width: 207px;
+    height: 51px;
+    white-space: nowrap;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.button-submit {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    padding: 19px 32px;
+    width: 207px;
+    height: 51px;
+    white-space: nowrap;
+}
+
+.hero-black {
+    background: #131313;
+    background-size: cover;
+    height: 1074px;
+    padding-top: 194px;
+    position: relative;
+}
+
+@media (max-device-width: 700px) {
+    .header-navigation {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .button-calc-subm {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .hero {
+        display: flex;
+    }
+
+    .hero-container {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .button-submit {
+        margin-top: 30px;
+        width: 307px;
+        height: 51px;
+    }
+
+    .button-calculate {
+        margin-top: 30px;
+        width: 307px;
+        height: 51px;
+    }
+
+    .header-navigation {
+        margin-right: 18px;
+    }
+
+    .logo {
+        margin-left: 18px;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .header-navigation {
+        display: none;
+    }
+
+    .header-navigation {
+        margin-right: 18px;
+    }
+
+    .logo {
+        margin-left: 18px;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .button-calc-subm {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .hero {
+        display: flex;
+    }
+
+    .hero-container {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .button-submit {
+        margin-top: 30px;
+        width: 307px;
+        height: 51px;
+    }
+
+    .button-calculate {
+        margin-top: 30px;
+        width: 307px;
+        height: 51px;
+    }
+
+
+}
