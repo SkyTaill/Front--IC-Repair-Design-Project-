@@ -38,16 +38,15 @@ body * {
 .header-navigation {
     list-style: none;
     display: flex;
-
-
 }
+
 
 
 .header-navigation_item_number {
     color: #E3B873;
     margin-right: 45px;
     margin-left: 67px;
-
+    white-space: nowrap;
 }
 
 .header-navigation_item {
@@ -165,6 +164,9 @@ body * {
     height: 1074px;
     padding-top: 194px;
     position: relative;
+    padding-top: 0px;
+
+
 }
 
 @media (max-device-width: 700px) {
@@ -260,6 +262,115 @@ body * {
         width: 307px;
         height: 51px;
     }
+}
+
+.menu-interier {
+    margin-bottom: 52px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
 
 
+}
+
+.right-mod {
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 190px;
+    margin-top: 107px;
+    margin-left: 50px;
+
+}
+
+.selecter-room-navigation {
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+.selecter-room-navigation_item {
+    margin-right: 47px;
+
+}
+
+.selecter-room-navigation_item a {
+    text-decoration: none;
+    color: white;
+}
+
+.selecter-room-navigation_item:hover {
+    text-decoration: underline;
+}
+
+.left-mod {
+    padding-top: 176px;
+
+}
+
+.content-room-selector {
+    padding-top: 0px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.completed-projects {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    margin-right: 239px;
+    color: #E3B873;
+}
+
+.complated-projects-content {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    margin-right: 50px;
+    color: #FFFFFF;
+}
+
+.object-grid {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+}
+
+.object-grid-heading {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+
+    color: #E3B873;
+}
+
+.sercle {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    height: 9.57px;
+    width: 9.57px;
+    margin-right: 17.54px;
+}
+
+.sercle-menu {
+    padding-left: 70px;
+    display: flex;
+}
+
+.sercle:hover {
+    background: #FFFFFF;
 }
