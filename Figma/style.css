@@ -41,7 +41,6 @@ body * {
 }
 
 
-
 .header-navigation_item_number {
     color: #E3B873;
     margin-right: 45px;
@@ -161,7 +160,7 @@ body * {
 .hero-black {
     background: #131313;
     background-size: cover;
-    height: 1074px;
+    height: 1174px;
     padding-top: 194px;
     position: relative;
     padding-top: 0px;
@@ -373,4 +372,100 @@ body * {
 
 .sercle:hover {
     background: #FFFFFF;
+}
+
+.online-control {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.centr-mod {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.vector-image {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.image-worke {
+    margin-top: -201px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    filter: brightness(30%)
+}
+
+.play {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 85px;
+    height: 85px;
+    background: #E3B873;
+    box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+    border-radius: 60px;
+
+}
+
+.play-triangle {
+    position: absolute;
+    left: 33px;
+    top: 25px;
+    text-align: center;
+    border-top: 18px solid transparent;
+    border-left: 26px solid rgb(255, 255, 255);
+    border-bottom: 18px solid transparent;
+}
+
+
+.double-stice {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #E3B873;
+    border-radius: 30px;
+    height: 1.54px;
+    width: 55px;
+}
+
+.stice {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 62px;
+    background: #E3B873;
+    border-radius: 30px;
+    height: 1.54px;
+    width: 55px;
+}
+
+.text-rev {
+
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #363636;
 }
