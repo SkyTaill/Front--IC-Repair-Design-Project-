@@ -481,13 +481,15 @@ body * {
 
 .form {
     background: transparent;
-    border: none;
+    border: 0;
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 23px;
+
+    outline: 0;
 
     color: #363636;
 
@@ -546,7 +548,7 @@ body * {
     transition: .2s;
 }
 
-.checkbox:checked + .fake::before {
+.checkbox:checked+.fake::before {
     opacity: 1;
 }
 
@@ -647,4 +649,48 @@ body * {
     line-height: 25px;
     text-transform: uppercase;
     color: #FFFFFF;
+
 }
+
+.img-white-back {
+    display: flex;
+    margin-left: -360px;
+    position: relative;
+}
+
+.section-reg-form {
+    display: flex;
+    margin-top: 130px;
+
+    margin-bottom: 50px;
+}
+
+.sercle-item {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    background: #E3B873;
+    box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+    border-radius: 60px;
+
+
+}
+
+.text-in-sercl-items {
+    margin-top: 11px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+list-of-point {}
