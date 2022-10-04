@@ -548,7 +548,7 @@ body * {
     transition: .2s;
 }
 
-.checkbox:checked+.fake::before {
+.checkbox:checked + .fake::before {
     opacity: 1;
 }
 
@@ -591,6 +591,7 @@ body * {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    flex-direction: row;
 }
 
 .margin-white-box {
@@ -682,6 +683,7 @@ body * {
 }
 
 .text-in-sercl-items {
+
     margin-top: 11px;
     font-family: 'Yeseva One';
     font-style: normal;
@@ -693,4 +695,48 @@ body * {
     color: #FFFFFF;
 }
 
-list-of-point {}
+.list-of-point {
+    margin-top: 70px;
+}
+
+
+.black-square {
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    height: 509px;
+    width: 506px;
+    margin-top: 90px;
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-black-block {
+    background: transparent;
+    border: 0;
+    width: 408px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: white;
+    outline: 0;
+
+
+}
+
+.chekbox-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    /* or 23px */
+
+
+    color: #FFFFFF;
+}
