@@ -548,7 +548,7 @@ body * {
     transition: .2s;
 }
 
-.checkbox:checked + .fake::before {
+.checkbox:checked+.fake::before {
     opacity: 1;
 }
 
@@ -588,8 +588,7 @@ body * {
     margin-bottom: 124px;
     margin-left: 103px;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+
     justify-content: center;
     flex-direction: row;
 }
@@ -774,4 +773,55 @@ body * {
 
 
     color: #959595;
+}
+
+
+.box-flat-form {
+    width: 293px;
+    height: 51px;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.box-flat-line {
+
+    width: 1px;
+    background-color: white;
+    height: 51px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -57px;
+    text-align: center;
+
+}
+
+.box-flat-img {
+    background-image: url("img/date.png");
+    background-size: cover;
+    height: 32px;
+    padding-top: 31px;
+    margin-top: -30px;
+
+}
+
+.box-flat-text-style {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.box-flat-round {
+    border-radius: 100px;
+
 }
