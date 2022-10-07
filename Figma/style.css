@@ -825,3 +825,22 @@ body * {
     border-radius: 100px;
 
 }
+
+.hero-end-section {
+    background-image: url("img/end-back-fon.jpg");
+    background-size: cover;
+    height: 953px;
+    padding-top: 194px;
+    position: relative;
+}
+
+.hero-end-section-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .9);
+
+}
