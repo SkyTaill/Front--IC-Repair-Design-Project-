@@ -372,9 +372,7 @@ body * {
 
 
 
-.sercle:hover {
-    background: #FFFFFF;
-}
+.sercle:hover {}
 
 .online-control {
     font-family: 'Yeseva One';
@@ -860,4 +858,12 @@ body * {
 .arrow:hover {
 
     transform: scale(1.05);
+}
+
+
+.image-landing {
+    background-image: url("img/landing/image 2.1.png");
+
+    width: 817px;
+    height: 464px;
 }
