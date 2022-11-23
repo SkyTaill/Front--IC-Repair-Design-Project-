@@ -370,9 +370,9 @@ body * {
     display: flex;
 }
 
-.sercle:hover {
-    background: #FFFFFF;
-}
+
+
+.sercle:hover {}
 
 .online-control {
     font-family: 'Yeseva One';
@@ -853,6 +853,17 @@ body * {
     background: #E3B873;
     box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
     border-radius: 60px;
+}
+
+.arrow:hover {
+
+    transform: scale(1.05);
+}
 
 
+.image-landing {
+    background-image: url("img/landing/image 2.1.png");
+
+    width: 817px;
+    height: 464px;
 }
